@@ -1,0 +1,40 @@
+
+.rouge{
+   
+    background-color: red;
+    
+}
+
+.orange{
+ 
+    background-color:orangered;
+}
+
+.orangeclair{
+    
+    background-color: orange;
+}
+
+.jaune{
+    
+    background-color: yellow;}
+
+.row{
+        display: flex;
+        flex-direction: row;
+    }/* Grâce au display: flex associé à flex-direction row: on affiche les éléments enfants de notre section en rangée, les uns à côté des autres . */
+
+.rowreverse{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+.column{
+        display: flex;
+        flex-direction: column;
+    }
+
+.columnreverse{
+display: flex;
+flex-direction: column-reverse;
+    }

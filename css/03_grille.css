@@ -1,0 +1,142 @@
+/* notre grille de 12colonnes*/
+
+/* On défini la largeur des collones en pourrcentages */
+/* On calcule la première colonne:100/12  */
+
+*{
+    box-sizing: border-box;
+}
+
+/* mx-auto :centrer un contenu, x signifie  */
+.row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* Flex-wrap : wrap va permettre de donner comme indication que s'il n'y a pas assez de place le contenu doit aller à la ligne */
+}
+
+.col-1{
+    width: 8.33333%;
+    padding: 4px;
+}
+
+.col-2{
+
+    width: 16.666666%;
+    padding: 4px;
+}
+
+.col-3{
+    width: 25%;
+    padding: 4px;
+}
+
+.col-4{
+
+    width: 33.333333%;
+    padding: 4px;
+}
+
+.col-5{
+
+    width: 41.666666%;
+padding: 4px
+}
+
+.col-6{    
+    width: 50%;
+    padding: 4px;
+}
+
+.col-7{
+
+    width: 58%;
+    padding: 4px;
+}
+
+
+.col-8{
+    width: 66.666666%;
+    padding: 4px;
+}
+
+.col-9{
+
+    width: 75%;
+    padding: 4px;}
+    
+.col-10{
+    width: 83.666666%;
+    padding: 4px;
+}
+
+.col-11{
+
+    width: 91.666666%;
+    padding: 4px;}
+
+    
+.col-12{
+
+    width: 100%;
+    padding: 4px;}
+
+    .brun{
+background-color:brown;
+    }
+    .marron{
+background-color: maroon
+    }
+
+    .bordeaux{
+background-color: rgb(219, 65, 65);
+    }
+
+    .rouge{
+background-color: red;
+    }
+
+    .orange{
+background-color: orangered;
+    }
+    .orangeclair{
+background-color: orange;
+    }
+    .jaune{
+background-color: yellow;
+    }
+    .vertclair{
+background-color: yellowgreen;
+    }
+
+    .vertfonce{
+background-color: green;
+    }
+    .bleufonce{
+background-color: blue;
+    }
+
+    .bleuclair{
+background-color: cadetblue;
+    }
+
+    .lanvande{
+background-color: lavender;
+    }
+
+
+    .row{
+
+        display: flex;
+        flex-direction: row;
+    }
+
+    .gras{
+        font-size: 2em;
+        font-weight: bold;
+    }
+.row-reverse {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+}

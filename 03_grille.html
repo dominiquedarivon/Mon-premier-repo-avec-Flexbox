@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Une grille en Flex</title>
+    <link rel="stylesheet" href="css/03_grille.css">
+</head>
+
+<body>
+
+    <!-- début du conteneur -->
+    <div class="conteneur">
+
+        <header class="row">
+
+            <div class="col-10 mx-auto">
+                <h1> Une page avec une
+
+                    grille
+
+                </h1>
+            </div>
+
+        </header><!-- fin du header -->
+
+        <section class="row">
+
+            <article class="col-4">
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit quia laudantium est corrupti veniam
+                    eius repudiandae eveniet quae molestias, libero ab quidem, explicabo doloremque sequiLorem ipsum
+                    dolor sit amet consectetur adipisicing elit. Impedit quia laudantium est corrupti veniam eius
+                    repudiandae eveniet quae molestias, libero ab quidem, explicabo doloremque sequi facere, fugiat vel.
+                    Voluptatibus, quasi? </p>
+            </article>
+
+
+            <article class="col-4">
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit quia laudantium est corrupti veniam
+                    eius repudiandae eveniet quae molestias, libero ab quidem, explicabo doloremque sequi facere, fugiat
+                    vel. Voluptatibus, quasi?Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit quia
+                    laudantium est corrupti veniam eius repudiandae eveniet quae molestias, libero ab quidem, explicabo
+                    doloremque sequi facere, fugiat vel. Voluptatibus, quasi?
+                </p>
+            </article>
+
+
+
+            <article class="col-4">
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit quia laudantium est corrupti veniam
+                    eius repudiandae eveniet quae molestias, libero ab quidem, explicabo doloremque sequi facere, fugiat
+                    vel. Voluptatibus, quasi?Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit quia
+                    laudantium est corrupti veniam eius repudiandae eveniet quae molestias, libero ab quidem, explicabo
+                    doloremque sequi facere, fugiat vel. Voluptatibus, quasi?
+                </p>
+            </article>
+
+        </section>
+<br><br>
+
+
+<section class="colonnes">
+<!-- div*12{$} -->
+    <div class="col-1 brun">1</div>
+    <div class="col-2 marron">2</div>
+    <div class="col-3 bordeaux" >3</div>
+    <div class="col-4 rouge">4</div>
+    <div class="col-5 orange">5</div>
+    <div class="col-6 orangeclair">6</div>
+    <div class="col-7 jaune">7</div>
+    <div class="col-8 vertclair">8</div>
+    <div class="col-9 vertfonce">9</div>
+    <div class="col-10 bleufonce">10</div>
+    <div class="col-11 bleuclair">11</div>
+    <div class="col-12 lanvande">12</div>
+<!-- Afficher  12div qui ont la call col-1 côte à côte -->
+<!--  donner leur des classes couleurs différentes pour qu'on puisse bien les voir  -->
+
+</section>
+
+    </div><!-- fin du conteneur -->
+<br><br>
+    <!--  section 2 -->
+
+    <h2> Les rangées </h2>
+
+    <section class="row gras"><!-- row c'est à dire rangée -->
+        <!-- div*12{$} -->
+            <div class="col-1 brun">1</div>
+            <div class="col-1 marron">2</div>
+            <div class="col-1 bordeaux" >3</div>
+            <div class="col-1 rouge">4</div>
+            <div class="col-1 orange">5</div>
+            <div class="col-1 orangeclair">6</div>
+            <div class="col-1 jaune">7</div>
+            <div class="col-1 vertclair">8</div>
+            <div class="col-1 vertfonce">9</div>
+            <div class="col-1 bleufonce">10</div>
+            <div class="col-1 bleuclair">11</div>
+            <div class="ccol-1 lanvande">12</div>
+
+
+        </section> <!-- fin de section 2 -->
+<br><br>
+
+        <!-- afficher deux colonnes, côte à côte , la premiere doit faire la taille de 8 colonnes et doit être 2 paragraphe avec 3 lorem à l'intérieur. la 2ème doit faire la taille de 4 colonnes et doit etre une liste non ordonnées avec des lorem à l'intérieur des li   -->
+
+
+<section class="row rouge" >
+
+<div class=" col-8 "> <p><span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat aut sit voluptates illo repellendus debitis temporibus aperiam adipisci quisquam quia sequi optio dolorem, tempore blanditiis hic accusantium officia cum magni?</span><span>Consequatur repellendus numquam fugiat explicabo repellat nulla libero consectetur harum obcaecati in. Reiciendis ullam ut quos tempore neque iure soluta laborum maiores. Ipsam ad iure nulla velit aspernatur assumenda magnam?</span><span>Commodi laudantium vitae dignissimos temporibus? Maiores, delectus fugit praesentium deserunt commodi quis, accusantium ratione provident hic molestias vel doloribus accusamus quae consequatur. Suscipit, a? Deserunt animi quos aspernatur dolores ad.</span></p>
+<p><span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet dolor quos numquam minus blanditiis fugit hic, enim recusandae quisquam perspiciatis ducimus sequi natus nostrum omnis ratione, quam quod sint repellendus.</span><span>Ullam velit enim distinctio! Quod odit sed amet quaerat, dignissimos voluptate deleniti nobis. Animi itaque ipsa magnam magni nulla facere autem odio alias. Ab necessitatibus dolor ducimus, cumque est dicta.</span><span>Ratione corrupti fuga quibusdam expedita hic vel soluta consectetur dolorum doloremque distinctio culpa, possimus debitis, eligendi a asperiores mollitia voluptatem fugiat, voluptate est natus incidunt! Id unde porro iure ipsa.</span></p></div>
+
+
+<div class="col-4 vertclair">
+
+<ul>
+    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, quasi molestiae. Necessitatibus consequuntur ipsam architecto qui tempora neque dolore quas alias esse laudantium eius ipsa delectus et corrupti, iusto odit.
+    Quas ipsa magnam tenetur, tempore veniam qui sint officia eius, reiciendis cum dignissimos exercitationem quis at inventore ipsum, excepturi dolorum! Quasi cumque iure atque molestiae quam ut, delectus ea! Qui!</li>
+</ul>
+<ul>
+    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, quasi molestiae. Necessitatibus consequuntur ipsam architecto qui tempora neque dolore quas alias esse laudantium eius ipsa delectus et corrupti, iusto odit.
+    Quas ipsa magnam tenetur, tempore veniam qui sint officia eius, reiciendis cum dignissimos exercitationem quis at inventore ipsum, excepturi dolorum! Quasi cumque iure atque molestiae quam ut, delectus ea! Qui!</li>
+</ul>
+<ul>
+    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, quasi molestiae. Necessitatibus consequuntur ipsam architecto qui tempora neque dolore quas alias esse laudantium eius ipsa delectus et corrupti, iusto odit.
+    Quas ipsa magnam tenetur, tempore veniam qui sint officia eius, reiciendis cum dignissimos exercitationem quis at inventore ipsum, excepturi dolorum! Quasi cumque iure atque molestiae quam ut, delectus ea! Qui!</li>
+</ul>
+</div>
+</section>
+
+<br><br>
+
+
+<!--  -->
+
+<section class="row jaune ">
+
+<div class="col-4 bleufonce"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit eveniet quidem impedit enim. Expedita, placeat laudantium! Magnam dicta provident atque tenetur laborum in ducimus similique maiores vero ipsa, ullam minus.</div>
+
+<div class="col-8 brun " >
+
+    <div class="row-reverse"> 
+    <div class="col-4 jaune">1</div>
+    <div class="col-4 bleufonce">2</div>
+    <div class="col-4 vertclair">3</div>
+</div>
+</div>
+
+
+
+
+</section>
+
+</body>
+
+</html>

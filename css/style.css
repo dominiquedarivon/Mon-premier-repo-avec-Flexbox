@@ -1,0 +1,98 @@
+/* Flexbox est une solution pour aligner ls éléments de façon horizontale mais aussi verticale, comme float , flex va permettre d'afficher les éléments les uns à côté des autres . */
+
+.rouge{
+    width: 100px;
+    background-color: red;
+    
+}
+
+.orange{
+    width: 100px;
+    background-color:orangered;
+}
+
+.orangeclair{
+    width: 100px;
+    background-color: orange;
+}
+
+.jaune{
+    width: 100px;
+    background-color: yellow;
+}/* ici on a donné une couleur a nos éléments pour bien visualiser kes changements dabs leur comportement */
+
+/* il exiiste différents valeurs pour justify content :  par défaut la valeur est flex-star: au début
+il existe aussi flex-end: se place à la fin . center: centrer . space-evenly: espaces entre les différents éléments de façon uniforme / space-aroud : espace  autour des éléemnts/ space between : entre les elements */
+
+.jc-evenly{
+display: flex;
+justify-content: space-evenly;
+height: 100px;
+/* si le parent à une hauteur , les parent ont par défaut cette même hauteur , c'est le comportement par défaut de align-items: "stretch"  cad "étend toi"*/
+}
+
+.jc-around{
+    display: flex;
+    justify-content: space-around;
+    height: 100px;
+}
+
+.jc-between{
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+}
+
+.ordre{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.ordre .rouge{
+    order: -2;
+}
+/* Order est une propriété responsive car elle permet de déplacer un élément à une position données */
+.ordre .orangeclair{
+    order: 2;
+}
+
+.stretch{
+    display: flex;
+    justify-content: space-between;
+    height: 200px;
+    align-items: stretch;/*  La valeur par défaut */
+}
+
+.baseline{
+display: flex;
+justify-content: space-around;
+height: 200px;
+align-items: baseline;/* ici les div s'affichent à la hauteur de la ligne de caractère */
+
+}
+
+.flexstart{
+display: flex;
+justify-content: space-around;
+align-items: flex-start;
+height: 200px; 
+
+}
+
+
+.flexend{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    height: 200px;
+    }
+
+    .center{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    height: 200px;
+    }
+
+    
